@@ -15,6 +15,9 @@ func main() {
 	}
 
 	//DATABASE_URL := os.Getenv("DATABASE_URL")
+	//if DATABASE_URL == "" {
+	//	log.Fatal("$DATABASE_URL must be set")
+	//}
 	//EstablishDBConnection(DATABASE_URL)
 
 	router := GetRouter()
